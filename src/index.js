@@ -1,6 +1,8 @@
 import { initialPageLoad } from './pageLoad.js';
 import { menubar } from './menu.js'
 import { contact } from './contact.js'
+import './styles.css'
+
 initialPageLoad();
 
 
@@ -12,7 +14,7 @@ let tabSwitchingModule = function () {
 
     const menuTab = document.querySelector('.menu');
     menuTab.addEventListener('click', menubar);
-    
+
     const contactTab = document.querySelector('.contact');
     contactTab.addEventListener('click', contact);
 

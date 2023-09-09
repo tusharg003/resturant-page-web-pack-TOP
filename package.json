@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "demo": "git subtree push --prefix dist origin gh-pages"
+    "demo": "git subtree push --prefix dist origin gh-pages",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch"
   },
   "author": "",
   "license": "ISC",
